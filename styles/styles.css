@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --vDMagenta: hsl(300, 43%, 22%);
+    --sPink: hsl(333, 80%, 67%);
+    --dGMagenta: hsl(303, 10%, 53%);
+    --lGMagenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/bg-pattern-top-mobile.svg) top left no-repeat, url(../images/bg-pattern-bottom-mobile.svg) no-repeat;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
